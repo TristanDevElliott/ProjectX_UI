@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project X - Home</title>
+    <link rel="stylesheet" href="assets/css/app.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+    <style>
+        .img-small {
+            display: flex;
+            width: 70px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+        }
+    </style>
+</head>
+<body class="bg-gray-200">
+    <div class="min-h-screen w-full flex">
+        <div class="w-1/12 bg-gray-800 shadow">
+
+            <div class="flex justify-center items-center">
+                <!-- <a href="index.html" class="block p-3 text-gray-400 font-light">Brand</a> -->
+                <img src="assets/images/logo-white.png" alt="Logo" class="img-small" title="ProjectX">
+            </div>
+            
+            <div class="border-t-2 border-gray-700">
+                <a href="auth/login.html" class="block p-3 text-gray-600 active:text-purple-600 font-light hover:text-gray-400 hover:bg-gray-700"><i class="fa fa-sign-in mr-1"></i> Login</a>
+                <a href="auth/register.html" class="block p-3 text-gray-600 active:text-purple-600 font-light hover:text-gray-400 hover:bg-gray-700"><i class="fa fa-user mr-1"></i> Register</a>
+                <a href="auth/reset-password.html" class="block p-3 text-gray-600 active:text-purple-600 font-light hover:text-gray-400 hover:bg-gray-700"><i class="fa fa-lock mr-1"></i> Reset Password</a>
+            </div>
+        
+        </div>
+        <div class="flex-1">
+            <nav class="bg-white shadow flex">
+                <div class="block flex-grow">
+                    <p class="block p-3 font-light text-gray-700 hover:text-gray-500 active:text-purple-600"><i class="fa fa-tachometer mr-1"></i> Dashboard</p>
+                </div>
+                <div>
+                    <div class="dropdown">
+                        <a href="#" class="block p-3 font-light text-gray-700 hover:text-gray-500 active:text-purple-600 relative active:bg-gray-800 active:text-gray-600 focus:bg-gray-800 focus:text-gray-600 hover:bg-gray-800 hover:text-gray-600"><i class="fa fa-user mr-1"></i>Username</a>
+                        <!-- <div class="dropdown-menu absolute block right-0 shadow">
+                            <a href="" class="block p-3 bg-white pl-5 pr-5 text-gray-700 font-light hover:bg-gray-800 hover:text-gray-600"><i class="fa fa-user mr-2"></i>DropDown Link</a>
+                        </div> -->
+                    </div>
+                    
+                </div>
+            </nav>
+            <main class="p-3">
+                This is the main content area.
+            </main>
+        </div>
+    </div>
+    <script src="assets/js/app.js"></script>
+</body>
+</html>
